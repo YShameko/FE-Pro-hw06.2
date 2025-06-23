@@ -3,7 +3,7 @@
 function calculateAverageNumberFromArray (inputArray) {
     let averageNum = 0;
     let counter = 0;
-    for (let thisElement of inputArray) {
+    for (const thisElement of inputArray) {
         if (typeof thisElement === 'number' && Number.isFinite(thisElement)) {
             averageNum += thisElement;
             counter++;
