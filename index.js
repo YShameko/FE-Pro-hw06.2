@@ -9,10 +9,7 @@ function calculateAverageNumberFromArray (inputArray) {
             counter++;
         }
     }
-    if (counter > 0) {
-        return averageNum / counter;
-    }
-    return NaN;
+    return averageNum / counter;
 }
 
 const someArray = [1, -5, true, 0.01, '12', 12, 'abc', -75];
